@@ -1,4 +1,4 @@
-#  PIG DICE
+#  PIG DICE GAME
 
   A program where two users can play Pig dice against each other.
 
@@ -7,7 +7,7 @@
 #### By Brilliant Kaimba briegrant416@gmail.com
 
 ## Description
-   
+   This is a two player game of Pig dice. Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold". The first player to score 100 or more points wins.
    
 ## Speifications
 
@@ -43,4 +43,4 @@ The technologies used to design this game web application of Game-of-Thrones are
 Bootstrap Javascript and jQuery version 3.2.1.
 
 ### License
-The MIT License
+This project is licenced under the MIT License.
