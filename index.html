@@ -5,17 +5,23 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Playball" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
 	<title>Pig Dice Game</title>
 </head>
 <body>
-	<nav class="navbar-inverse navbar-fixed-top">
-	  <h2>Pig Dice Game</h2>
-</nav>
-<div class="container-fliud">
+
+	<div class="container1" style="margin-left: 80px; margin-right: 80px;">
+			<div class="text" align="center">
+				<h1 style="font-weight: bolder; font-size: 70px;color: red; ">Pig Dice Game</h1>
+			</div>
+		</div>
+</div>
+<div class="container2">
 	<div class="row">
 		<div class="col-sm-6">
+			
+			
 			<h1>Rules!</h1>
-			<img src="images/image5.jpg">
 			<ul>
 				<p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold"</p>
 
@@ -28,20 +34,67 @@
 				</div>	
 		     </div>
 
-		     <table style="width: 100%">
-		     	<tr>
-		     	<th><button onclick="player1" type="click" style="font-size: 20px">Player1</button></th>
-		     	<th><button onclick="Player2" type="click" style="font-size: 20px">Player 2</button></th>
-		     </tr>
-		     <tr style="text-align: center">
-		     	<td><button onclick="Play" type="click" style="margin-right: 20px;font-size: 20px">Play</button><button onclick="Hold" type="click" style="font-size: 20px">Hold</button></td>
-		     	<td><button onclick="Play" type="click" style="margin-right: 20px;font-size: 20px">Play</button><button onclick="Hold" type="click" style="font-size: 20px">Hold</button></td> 	
-		     </tr>
-		     <tr>
-		     	<td> </td>
-		     	<td> </td>
-		     </tr>
-		 </table>
+		     <div class="container3">
+		    
+    <div class="start-menu container">
+      <div class="jumbotron">
+        <h1>Let's play Pig Dice!</h1>
+        
+          <form id="player-1">
+            <div class="form-group">
+              <th><label for="player1Name">Player 1:</label></th>
+              <input required class="player1Name form-control" type="text">
+            </div>
+
+          </form>
+          <form id="player-2">
+            <div class="form-group">
+              <th><label for="player2Name">Player 2:</label></th>
+              <input required class="player2Name form-control" type="text">
+            </div>
+          </form>
+          
+          <button id="start" class="btn-info btn">Start</button>
+      </div>
+    </div>
+
+    <div class="player-console container">
+        <button id="new-game" class="btn-success btn">NEW GAME</button>
+        <div class = "row">
+          <div class="col-md-6">
+          	<table width="70%">
+          		<th>
+            <td><h2>Player 1: <span id = "player1Name" style="margin-right: 60px;"><span></h2></td><td><h2>Player 2: <span id = "player2Name"><span></h2></td></br>
+            </th>
+            <tr>
+              <td><button id="player1-roll" class="btn-success btn">Roll</button></td><td><button id="player2-roll" class="btn-success btn">Roll</button></td>
+          </tr>
+          <tr>
+             <td><button id="player1-hold" class="btn-success btn">Hold</button></td><td><button id="player2-hold" class="btn-success btn">Hold</button></td>
+         </tr>
+         <tr>
+            <td><h2>Dice Roll: <span id="die-roll-1"></span></h2></td><td><h2>Dice Roll: <span id="die-roll-2"></span></h2></td>
+        </tr>
+        <tr>
+            <td><p>Total:<span id="round-total-1"></span></p></td><td><p>Total:<span id="round-total-2"></span></p></td>
+        </tr>
+        <tr>
+           <td><p>Score:<span id="total-score-1"></span></p></td> <td><p>Score:<span id="total-score-2"></span></p></td>
+       </tr>
+          </div>
+      </tr>
+<tr>
+        </div>
+        </div>
+        </div>
+      </div>
+</table>
+
+
+  </body>
+  <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</html>
             
 
 		     
@@ -52,7 +105,3 @@
 			
 		
 
-</body>
-<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-</html>
