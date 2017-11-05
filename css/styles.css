@@ -35,8 +35,10 @@
 .container3{
 	
 	
-	max-height: 500px;
-	min-height: 250px;
+	max-height: 800px;
+	min-height: 300px;
+	font-family: 'Shrikhand', cursive;
+	box-sizing: border-box; 
 	
 	background-color: #AFBADC;
 	
@@ -80,4 +82,58 @@ background-image: url(../images/y.gif);
   	color: black;
   	overflow: hidden;
   	transition: .5s ease;
+}
+#player1-hold,#player2-hold{
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #008CBA;
+	padding: 8px 30px;
+	display: inline-block;
+    margin: 4px 2px;
+
+}
+#player1-hold:hover,#player2-hold:hover{
+	bottom: 0;
+  	right: 0;
+  	background: red;
+  	opacity: 0.5;
+  	color: black;
+  	overflow: hidden;
+  	transition: .5s ease;
+  }
+ #player1-roll,#player2-roll{
+ 	font-size: 20px;
+	cursor: pointer;
+	background-color: #008CBA;
+	padding: 8px 30px;
+	display: inline-block;
+    margin: 4px 2px;
+
+ }
+ #player1-roll:hover,#player2-roll:hover{
+ 	bottom: 0;
+  	right: 0;
+  	background: red;
+  	opacity: 0.5;
+  	color: black;
+  	overflow: hidden;
+  	transition: .5s ease;
+ }
+ .player1Nameform-control{
+ 	width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.player2Nameform-control{
+ 	width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
