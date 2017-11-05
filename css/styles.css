@@ -1,0 +1,49 @@
+.container1{
+	background-color: #1A1717;
+	opacity: 0.9;
+	max-height: 500px;
+	min-height: 226px;
+	background-image: url(../images/gf.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 90px;
+	margin-top: 1px;
+	border: 25px solid #967777;
+    padding: 25px;
+    margin: 25px;
+    color: white;
+
+}
+
+.container2{
+	background-color: white;
+	opacity: 0.9;
+	max-height: 500px;
+	min-height: 226px;
+	font-family: 'Berkshire Swash', cursive;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color: #AFBADC;
+    
+	background-repeat: no-repeat;
+	background-size: cover;
+    border: 25px solid red;
+    padding: 25px;
+    margin: 25px;
+    color: white;
+}
+.container3{
+	background-color: blue;
+	
+	max-height: 500px;
+	min-height: 226px;
+	
+	background-color: #AFBADC;
+	
+}
+body{
+background-image: url(../images/y.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
