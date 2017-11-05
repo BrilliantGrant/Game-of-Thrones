@@ -51,11 +51,28 @@ background-image: url(../images/y.gif);
 	font-size: 20px;
 	cursor: pointer;
 	background-color: #008CBA;
-	padding: 14px 40px;
+	padding: 8px 30px;
 	display: inline-block;
     margin: 4px 2px;
 }
 #start:hover{
+	 bottom: 0;
+  	right: 0;
+  	background: red;
+  	opacity: 0.5;
+  	color: black;
+  	overflow: hidden;
+  	transition: .5s ease;
+}
+#new-game{
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #008CBA;
+	padding: 8px 30px;
+	display: inline-block;
+    margin: 4px 2px;
+}
+#new-game:hover{
 	 bottom: 0;
   	right: 0;
   	background: red;
