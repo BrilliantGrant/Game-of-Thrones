@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 //business logic
->>>>>>> master
 var player1="";
 var player2="";
 
