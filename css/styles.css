@@ -16,13 +16,19 @@
 	font-size: 20px;
 	
 	background-color: #AFBADC;
-	opacity: 0.9;
-	max-height: 90px;
-	min-height: 300px;
-	background-repeat: no-repeat;
-	background-size: contain;
+	background-image: url(../images/ii.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+    border: 25px solid red;
+   border: 25px solid #8E8AA8;
+      padding: 25px;
+      margin: 25px;
+   color: white;
+   color: #7DE896;
+  }
 
-}
+
+
 .container3{
 	background-image: url(../images/gff.gif);
 	font-size: 20px;
@@ -39,4 +45,21 @@ body{
 	background-image: url(../images/imag.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+#start{
+font-size: 20px;
+cursor: pointer;
+background-color: #008CBA;
+padding: 14px 40px;
+display: inline-block;
+margin: 4px 2px;
+}
+#start:hover{
+bottom: 0;
+	right: 0;
+  	background: red;
+  	opacity: 0.5;
+  	color: black;
+  	overflow: hidden;
+  	transition: .5s ease;
 }
