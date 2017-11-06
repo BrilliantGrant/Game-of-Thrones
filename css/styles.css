@@ -1,68 +1,11 @@
 .container1{
-<<<<<<< HEAD
-	font-family: 'Shrikhand', cursive;
-	font-size: 50px;
-	text-align: center;
-	background-color: black;
-=======
 	background-color: #1A1717;
->>>>>>> master
 	opacity: 0.9;
 	max-height: 500px;
 	min-height: 226px;
 	background-image: url(../images/gf.gif);
 	background-repeat: no-repeat;
 	background-size: contain;
-<<<<<<< HEAD
-
-}
-.container2{
-	
-	font-size: 20px;
-	
-	background-color: #AFBADC;
-	background-image: url(../images/ii.jpg);
-  	background-repeat: no-repeat;
-  	background-size: cover;
-    border: 25px solid red;
-   border: 25px solid #8E8AA8;
-      padding: 25px;
-      margin: 25px;
-   color: white;
-   color: #7DE896;
-  }
-
-
-
-.container3{
-	background-image: url(../images/gff.gif);
-	font-size: 20px;
-	background-repeat: no-repeat;
-	background-size: contain;
-	
-	background-color: #AFBADC;
-	opacity: 0.9;
-	max-height: 90px;
-	min-height: 580px;
-}
-
-body{
-	background-image: url(../images/imag.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-#start{
-font-size: 20px;
-cursor: pointer;
-background-color: #008CBA;
-padding: 14px 40px;
-display: inline-block;
-margin: 4px 2px;
-}
-#start:hover{
-bottom: 0;
-	right: 0;
-=======
 	height: 90px;
 	margin-top: 1px;
 	border: 25px solid #967777;
@@ -137,15 +80,11 @@ background-image: url(../images/y.gif);
 #new-game:hover{
 	 bottom: 0;
   	right: 0;
->>>>>>> master
   	background: red;
   	opacity: 0.5;
   	color: black;
   	overflow: hidden;
   	transition: .5s ease;
-<<<<<<< HEAD
-}
-=======
 }
 #player1-hold,#player2-hold{
 	font-size: 20px;
@@ -205,4 +144,3 @@ background-image: url(../images/y.gif);
     box-sizing: border-box;
 }
 
->>>>>>> master
