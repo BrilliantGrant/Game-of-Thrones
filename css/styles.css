@@ -1,14 +1,19 @@
 .container1{
+<<<<<<< HEAD
 	font-family: 'Shrikhand', cursive;
 	font-size: 50px;
 	text-align: center;
 	background-color: black;
+=======
+	background-color: #1A1717;
+>>>>>>> master
 	opacity: 0.9;
 	max-height: 500px;
 	min-height: 226px;
 	background-image: url(../images/gf.gif);
 	background-repeat: no-repeat;
 	background-size: contain;
+<<<<<<< HEAD
 
 }
 .container2{
@@ -57,9 +62,147 @@ margin: 4px 2px;
 #start:hover{
 bottom: 0;
 	right: 0;
+=======
+	height: 90px;
+	margin-top: 1px;
+	border: 25px solid #967777;
+    padding: 25px;
+    margin: 25px;
+    color: white;
+
+}
+
+.container2{
+	background-color: white;
+	opacity: 0.9;
+	max-height: 500px;
+	min-height: 226px;
+	font-family: 'Berkshire Swash', cursive;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color: #5E5E5B;
+    background-image: url(../imagesee/ii.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    border: 25px solid #8E8AA8;
+    padding: 25px;
+    margin: 25px;
+    color: #7DE896;
+}
+.container3{
+	
+	
+	max-height: 800px;
+	min-height: 300px;
+	font-family: 'Shrikhand', cursive;
+	box-sizing: border-box; 
+	background-image: url(../images/iiii.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #AFBADC;
+	color: black;
+	
+}
+body{
+background-image: url(../images/y.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+#start{
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #008CBA;
+	padding: 8px 30px;
+	display: inline-block;
+    margin: 4px 2px;
+}
+#start:hover{
+	 bottom: 0;
+  	right: 0;
   	background: red;
   	opacity: 0.5;
   	color: black;
   	overflow: hidden;
   	transition: .5s ease;
 }
+#new-game{
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #008CBA;
+	padding: 8px 30px;
+	display: inline-block;
+    margin: 4px 2px;
+}
+#new-game:hover{
+	 bottom: 0;
+  	right: 0;
+>>>>>>> master
+  	background: red;
+  	opacity: 0.5;
+  	color: black;
+  	overflow: hidden;
+  	transition: .5s ease;
+<<<<<<< HEAD
+}
+=======
+}
+#player1-hold,#player2-hold{
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #008CBA;
+	padding: 8px 30px;
+	display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+#player1-hold:hover,#player2-hold:hover{
+	bottom: 0;
+  	right: 0;
+  	background: red;
+  	opacity: 0.5;
+  	color: black;
+  	overflow: hidden;
+  	transition: .5s ease;
+
+  }
+ #player1-roll,#player2-roll{
+ 	font-size: 20px;
+	cursor: pointer;
+	background-color: #008CBA;
+	padding: 8px 30px;
+	display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+
+ }
+ #player1-roll:hover,#player2-roll:hover{
+ 	bottom: 0;
+  	right: 0;
+  	background: red;
+  	opacity: 0.5;
+  	color: black;
+  	overflow: hidden;
+  	transition: .5s ease;
+ }
+ .player1Nameform-control{
+ 	width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.player2Nameform-control{
+ 	width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+>>>>>>> master
